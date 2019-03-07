@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emotion": "^10.0.7",
+    "emotion-theming": "^10.0.7",
+    "glamorous": "^5.0.0",
+    "mineral-ui": "^0.56.0",
+    "parcel": "^1.11.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-emotion": "^10.0.0"
+  }
+}
