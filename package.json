@@ -6,8 +6,9 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "docker:build": "docker build -t xvalentino/resume .",
-    "docker:run": "docker run -it -p 8080:80 xvalentino/resume"
+    "docker:build": "docker-compose build production",
+    "docker:run": "docker-compose up production",
+    "dev": "docker-compose up dev"
   },
   "author": "",
   "license": "ISC",
